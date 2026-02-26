@@ -30,6 +30,8 @@ let obj= [
     { name:"Ahmad",age:19},
     { name:"Ali",age:20},
     { name:"Ali",age:25},
+    { name:"Ali",age:25},
+    { name:"Ali",age:26},
     
 ];
 
@@ -37,7 +39,7 @@ let eligible= obj.filter((Curelement)=>
 {
     
 
-     return Curelement.age<18 && name==="Ali";
+     return Curelement.age>18 && name==="Ali";
 });
 
 console.log(eligible);
