@@ -26,6 +26,7 @@ console.log(elmm);
 let obj= [
 
     { name:"Ali",age:13},
+    { name:"Alii",age:14},
     { name:"Ahmad",age:19},
     { name:"Ali",age:20},
     { name:"Ali",age:25},
@@ -36,7 +37,7 @@ let eligible= obj.filter((Curelement)=>
 {
     
 
-     return Curelement.age>18;
+     return Curelement.age<18 && name==="Ali";
 });
 
 console.log(eligible);
