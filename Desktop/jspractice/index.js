@@ -35,6 +35,12 @@ let obj= [
     
 ];
 
+
+
+
+
+
+
 let eligible= obj.filter((Curelement)=>
 {
     
@@ -43,3 +49,20 @@ let eligible= obj.filter((Curelement)=>
 });
 
 console.log(eligible);
+
+
+
+let arr7 =[1,23,4,5,6,64,6,6,4];
+
+let unq = arr.filter((ce,index,arr)=>
+{
+
+    return arr.indexOf(ce)===index;
+
+});
+console.log(unq);
+let arr9 =[1,21,2,2,1,3,4,2];
+
+console.log(new Set(arr9));
+
+
