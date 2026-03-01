@@ -7,3 +7,8 @@ let arrrev =  arr.reverse();
 
 let result =  arrrev.join();
 console.log(result);
+
+//Extracting part of string
+
+let ch = text.slice(6);
+console.log(ch);
