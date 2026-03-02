@@ -1,0 +1,37 @@
+*
+{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+#input
+{
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  gap: 2%;
+  padding-top: 3%;
+}
+
+#btn button {
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    border: 1px;
+    border-radius: 5px;
+}
+
+#input-field
+{
+    padding:7px;
+    color: black;
+    background-color: aquamarine;
+    border: 1px;
+
+    border-color: chartreuse;
+}
+
+#App
+{
+    padding-top: 5%;
+}
