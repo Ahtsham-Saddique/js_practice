@@ -86,3 +86,17 @@ addBtn.addEventListener("click", () => {
  console.log(task);
 });
 
+// prmises
+
+let promise = new Promise((resolve,reject) => {
+
+ let success = true;
+
+ if(success){
+  resolve("Data loaded");
+ }
+ else{
+  reject("Error");
+ }
+
+});
