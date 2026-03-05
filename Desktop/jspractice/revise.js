@@ -76,3 +76,13 @@ for(let n of nums){
  console.log(n);
 }
 
+// Dom
+let score = 10;
+
+document.getElementById("score").innerText = score;
+
+addBtn.addEventListener("click", () => {
+ let task = input.value;
+ console.log(task);
+});
+
