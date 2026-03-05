@@ -28,3 +28,19 @@ greet("Ali");
 const add = (a,b) => {
  return a + b;
 }
+
+
+
+
+// arrays
+
+let fruits = ["apple","banana","mango"];
+
+console.log(fruits[0]); // apple
+fruits.push("orange");
+
+for(let i=0;i<fruits.length;i++){
+ console.log(fruits[i]);
+}
+
+fruits.forEach(fruit => console.log(fruit));
