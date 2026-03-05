@@ -55,3 +55,24 @@ let student = {
 console.log(student.name);
 console.log(student["name"]);
 student.age = 23;
+
+
+// loops
+
+for(let i=0;i<5;i++){
+ console.log(i);
+}
+
+let i = 0;
+
+while(i < 5){
+ console.log(i);
+ i++;
+}
+
+let nums = [1,2,3];
+
+for(let n of nums){
+ console.log(n);
+}
+
