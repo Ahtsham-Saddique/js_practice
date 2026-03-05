@@ -100,3 +100,24 @@ let promise = new Promise((resolve,reject) => {
  }
 
 });
+
+// all in one
+
+const addBtn = document.getElementById("add");
+const input = document.getElementById("task");
+const list = document.getElementById("list");
+
+addBtn.addEventListener("click", () => {
+
+ let task = input.value;
+
+ if(task !== ""){
+
+   const li = document.createElement("li");
+   li.innerText = task;
+
+   list.appendChild(li);
+
+ }
+
+});
