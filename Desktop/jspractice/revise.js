@@ -44,3 +44,14 @@ for(let i=0;i<fruits.length;i++){
 }
 
 fruits.forEach(fruit => console.log(fruit));
+// objects
+
+let student = {
+ name: "Ali",
+ age: 22,
+ course: "CS"
+};
+
+console.log(student.name);
+console.log(student["name"]);
+student.age = 23;
